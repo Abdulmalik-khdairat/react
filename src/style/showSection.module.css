@@ -1,0 +1,87 @@
+.movieSection {
+  background: no-repeat bottom;
+  
+}.overlay{
+    background-color: #03254199;
+  padding: 1.875rem 1.25rem;
+
+}
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: white;
+}
+.sectionHeader  h2{
+}
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.1; }
+  100% { opacity: 1; }
+}
+
+.animatePulse {
+  animation: pulse .5s ease-in-out;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 1rem;
+  padding: 1rem 0;
+  height: 380px;
+  
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: none; 
+}
+.selector {
+  display: flex;
+  border: 1px solid #032541;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.option {
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  
+} 
+
+
+.mobileSelector {
+  display: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: 1px solid #032541;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #fff;
+  color: #032541;
+  font-size: 1rem;
+}
+
+.mobileSelector option:checked {
+  background-color: #032541;
+  color: #c0fecf;
+}
+
+.active {
+  background-color: #032541;
+  color: #c0fecf;
+}
+
+@media (max-width: 768px) {
+  .selector 
+ {
+    display: none;
+  }
+  .mobileSelector {
+    display: block;
+  }
+}

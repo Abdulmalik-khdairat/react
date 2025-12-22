@@ -1,0 +1,39 @@
+.cardContainer{
+    display: flex;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+    border: 1px solid rgb(227,227,227);
+    
+
+}
+.imgContainer{
+width: 5.875rem;
+height: 8.8125rem;
+border-radius: 5px 0 0 5px;
+
+}
+
+.detailsContainer{
+    padding: .875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.cardHead h2{
+    font-size: 1rem;
+    margin: 0;
+}
+.cardHead h2:hover{
+    cursor: pointer;
+    color: #01b4e4;
+    text-decoration: underline;
+}
+.cardHead p{
+   margin: 0;
+    font-size: .875rem;
+    color: #999999;
+}
+.cardFooter p {
+font-size: .875rem;
+}

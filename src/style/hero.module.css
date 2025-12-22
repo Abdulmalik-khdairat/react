@@ -1,0 +1,71 @@
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 22.5rem;
+  flex-direction: column;
+  background-color: gainsboro;
+  color: white;
+  padding: 1.875rem 2.5rem;
+  position: relative;
+}
+.heroSection::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 187, 255, 0.5);
+}
+.heroContainer {
+  z-index: 2;
+  
+  max-width: 1300px;
+  width: 100%;
+  padding: 1rem;
+}
+.heroTitleContainer {
+  z-index: 2;
+  
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+}
+.heroTitleContainer p {
+  font-size: 2rem;
+  margin: 0;
+}
+.heroSearchContainer {
+  padding-top: 2rem;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.heroSearchContainer input {
+  border: none;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  padding: 0.625rem 1.25rem;
+  height: 2.875rem;
+  box-sizing: border-box;
+}
+.heroSearchContainer input:focus {
+  outline: none;
+}
+
+.heroSearchContainer button {
+  position: absolute;
+  height: 2.875rem;
+  border-radius: 1.5rem;
+  background-color: #1ed5a9;
+  border: none;
+  right: 0.05rem;
+  padding: 0.625rem 1.625rem;
+  cursor: pointer;
+  color: white;
+}
+.heroSearchContainer button:hover {
+  color: #032541;
+}

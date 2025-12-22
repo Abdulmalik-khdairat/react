@@ -1,0 +1,11 @@
+:root {
+  --kendo-font-family: "Arial", sans-serif; /* fallback included */
+  height: 100%;
+}
+
+body {
+  font-family: var(--kendo-font-family, inherit);
+  padding: 0;
+  
+  margin: 0;
+}

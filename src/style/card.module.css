@@ -1,0 +1,115 @@
+.card {
+  width: 9.375rem;
+  height: 19.6875rem;
+}
+.cardImgContainer {
+  position: relative;
+}
+.cardImg {
+  border-radius: 5px;
+}
+.cardFooter {
+  padding: 1.625rem 0.625rem 0;
+}
+.cardFooter a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.cardFooter .date {
+  color: rgba(0, 0, 0, 0.6);
+}
+.cardMenu {
+  width: 1.5625rem;
+
+  opacity: 0.7;
+  cursor: pointer;
+
+}
+.cardMenuContainer {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 22;
+}
+.menuList {
+  position: absolute;
+  right: -3.5rem;
+  z-index: 11;
+  padding: rem;
+  width: 8.125rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+.menuList div {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding-left: 8px;
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.menuList div:hover {
+  background-color: #032541;
+  color: white;
+}
+.menuList img {
+  width: 1.2rem;
+}
+
+.menuList p {
+  font-size: 0.9rem;
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.blur {
+  filter: blur(5px) brightness(30%);
+  
+}
+
+
+
+
+.ratingCircle {
+    background-color: black;
+  position: absolute;
+  bottom:  -20px;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.circularChart {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.circleBg {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.3s ease;
+}
+
+.percentage {
+  fill: #fff;
+  font-size: 0.68em;
+  text-anchor: middle;
+}
+
+.whiteFont{
+  color: white !important; 
+}

@@ -1,0 +1,69 @@
+.footerContainer {
+  background-color: #03243f;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 2.5rem 1.25rem;
+}
+.footerContainer div {
+  margin-bottom: 1.875rem;
+}
+
+.footerContainer h2 {
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  white-space: nowrap;
+  margin: 0;
+  font-weight: 700;
+}
+.footerContainer .links {
+  text-decoration: none;
+  color: white;
+  font-size: 1.0625rem;
+  display: block;
+  line-height: 1.4em;
+  white-space: nowrap;
+  width: fit-content;
+}
+.footerContainer .links:hover {
+    text-decoration: underline;
+}
+
+.userBtn {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: #235ea7;
+  font-size: 1.3rem;
+  text-decoration: none;
+  word-wrap: break-word;
+  white-space: normal;
+    border-radius: .3125rem;
+  font-weight: 700;
+}
+
+
+
+
+
+.footerLogo {
+  display: none;
+}
+@media screen and (min-width:786px) {
+  
+  
+  .footerLogo{
+      width: 9.375rem;
+      display: block;
+      margin-bottom: 2rem;
+
+    
+  }
+  .footerContainer{
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 2.5rem 1.25rem;
+      align-items: start;
+    }
+
+  
+}
