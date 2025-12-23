@@ -228,4 +228,9 @@
     font-size: 0.875rem;
     text-transform: uppercase;
   }
+  .language:hover {
+    background-color: white;
+    color: #032541;
+    cursor: pointer;
+  }
 }

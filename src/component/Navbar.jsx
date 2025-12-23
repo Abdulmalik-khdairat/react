@@ -44,12 +44,12 @@ const Navbar = () => {
           <a href="/">People</a>
         </div>
         <div>
-          <a className={styles.sidebarLinks}>Contribution Bible</a>
-          <a className={styles.sidebarLinks}>Discussions</a>
-          <a className={styles.sidebarLinks}>Leaderboard</a>
-          <a className={styles.sidebarLinks}>Api</a>
-          <a className={styles.sidebarLinks}>Support</a>
-          <a className={styles.sidebarLinks}>Support</a>
+          <a href="3" className={styles.sidebarLinks}>Contribution Bible</a>
+          <a href="3" className={styles.sidebarLinks}>Discussions</a>
+          <a href="3" className={styles.sidebarLinks}>Leaderboard</a>
+          <a href="3" className={styles.sidebarLinks}>Api</a>
+          <a href="3" className={styles.sidebarLinks}>Support</a>
+          <a href="3" className={styles.sidebarLinks}>Support</a>
         </div>
       </div>
 

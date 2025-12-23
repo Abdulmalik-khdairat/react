@@ -48,6 +48,7 @@ const Hero = () => {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        
       }}
     >
       <div className={style.heroContainer}>

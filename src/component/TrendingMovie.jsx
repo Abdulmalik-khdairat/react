@@ -3,14 +3,12 @@ import style from "../style/movieSection.module.css";
 import Card from "./Card";
 import { getTrendingMovies } from "../service/fetchService";
 
-
-
 const TrendingMovie = () => {
   const [movies, SetMovies] = useState(null);
   const [period, setPeriod] = useState("day");
 
   useEffect(() => {
-    const fetchMovies  = async () => {
+    const fetchMovies = async () => {
       try {
         const res = await getTrendingMovies(period);
         SetMovies(res.results);
@@ -48,7 +46,7 @@ const TrendingMovie = () => {
           value={period}
           onChange={(e) => setPeriod(e.target.value)}
         >
-          <option  value="day">Today</option>
+          <option value="day">Today</option>
           <option value="week">This Week</option>
         </select>
       </div>
