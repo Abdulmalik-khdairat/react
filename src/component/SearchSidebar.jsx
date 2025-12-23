@@ -15,7 +15,7 @@ const SearchSidebar = ({ data }) => {
     if (item.media_type && counts[item.media_type] !== undefined) {
       counts[item.media_type]++;
     }
-    console.log(item);
+    
     
   });
 

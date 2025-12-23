@@ -19,9 +19,9 @@ const fetchService = async (endpoint) => {
 };
 
 export const getRandomMovie = async () => {
-  const page = Math.floor(Math.random() * 10) + 1;
-  const data = await fetchService(`/discover/movie?page=${page}`);
-  return data.results[1]; 
+  const num = Math.floor(Math.random() * 10) + 1;
+  const data = await fetchService(`/discover/movie?page=${num}`);
+  return data.results[num]; 
 };
 
 export const searchTMDB = async (query, category = "multi", page = 1) => {
